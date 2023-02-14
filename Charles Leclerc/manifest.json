@@ -1,0 +1,75 @@
+{
+    "description": "Make him cry AGAIN.",
+    "developer":
+    {
+        "name": "BlackusPL"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/Charles_Leclerc_screaming_but_it_s_the_F1_Theme_Tune.mp3"
+            ],
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 55,
+                        "s": 100,
+                        "l": 44
+                    },
+                    "gx_secondary_base":
+                    {
+						"h": 11,
+                        "s": 100,
+                        "l": 35
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 4,
+                        "s": 0,
+                        "l": 0
+                    },
+                    "gx_secondary_base":
+                    {
+						"h": 11,
+                        "s": 100,
+                        "l": 35
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+					"image": "wallpaper/video.webm",
+					"first_frame": "wallpaper/first_frame.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/dark.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "name": "Charles Leclerc",
+    "version": "1.0"
+}
